@@ -1,0 +1,18 @@
+.main {
+    margin: 3rem auto;
+    width: 90%;
+  }
+
+.card{
+  border-color: #000!important;
+  margin: 0px 2px;
+}
+
+ul.react-multi-carousel-dot-list{
+  margin: 10px 0px !important;
+}
+
+.carousel-body{
+  padding: 0px !important;
+  margin-bottom: 10px;
+}

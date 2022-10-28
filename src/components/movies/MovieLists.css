@@ -1,0 +1,17 @@
+.cardList{
+  padding: 25px 0px !important;
+}
+
+.rating-text{
+  font-weight: 400 !important;
+  font-size: 13px !important;
+}
+
+.filterBtn{
+  margin: 15px 0px;
+  padding: 5px 15px;
+
+}
+.filterBtn:not(:first-child){
+  margin-left: 10px;
+}

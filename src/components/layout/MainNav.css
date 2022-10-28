@@ -1,0 +1,77 @@
+.navbar{
+  background: rgba(0, 0, 0, 0.145) !important;
+  padding: 25px !important;
+}
+
+
+.logo{
+  font-size: 35px !important;
+  color: #e50914 !important;
+  margin-left: -5px !important;
+}
+
+.navbar-brand{
+  margin-right: 55px!important;
+}
+
+a{
+  text-decoration: none !important;
+  color: #fff !important;
+  font-size: 18px !important;
+  font-weight: bold;
+  margin-bottom: -5px;
+
+ }
+
+ .navbar a{
+  margin-left: 25px;
+ }
+
+ .navbar-nav a:hover, a:active{
+  color: #e50914 !important;
+ }
+
+ .badge{
+  background-color: #e50914;
+  color: white;
+  border-radius: 5px;
+  padding: 0 1rem;
+  margin-left: .8rem;
+  font-size: 18px;
+  line-height: 22px;
+ }
+
+ .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+  margin-left: 50px !important;
+ }
+ /* Hamburger icon */
+ .navbar-toggler{
+   background-color: #e50914 !important;
+ }
+
+
+ /* Media query for smaller devices */
+
+ @media only screen and (min-width:321px) and (max-width:768px){
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    margin-left: 0px !important;
+   }
+
+   .navbar-collapse{
+    background-color: rgba(0, 0, 0, 0.194) !important;
+    border-bottom: 1px #fff solid;
+   }
+
+   .navbar-nav{
+    margin-left: -25px;
+    margin-top: -15px;
+    line-height: 2rem;
+   }
+   a{
+    margin-bottom: 10px;
+   }
+ 
+   .logo{
+    display: none;
+   }
+ }

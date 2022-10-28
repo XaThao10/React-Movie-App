@@ -1,0 +1,14 @@
+.carousel-contianer{
+    margin-bottom: 25px !important;
+    padding: 25px 0px;
+}
+
+.rating-text{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.react-multi-carousel-dot-list{
+    margin-top: -50px !important;
+    color: red !important;
+}
