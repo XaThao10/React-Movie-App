@@ -7,7 +7,7 @@ function NewMovies(){
     function addMoviesHandler(movieData){
         //sending request to database (adding "movies to add new table and '.json' as requirement)
         //Fetch send GET Request ~ second parameter
-        fetch('https://movies-app-6ce8e-default-rtdb.firebaseio.com/movies.json',
+        fetch('Your_URL/movies.json',
         {
             method: 'POST', 
             body: JSON.stringify(movieData),

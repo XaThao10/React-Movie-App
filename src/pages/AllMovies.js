@@ -14,7 +14,7 @@ function AllMovies(){
   useEffect(() => {
     setIsLoading(true);
     //fecthing data form database
-    fetch('https://movies-app-6ce8e-default-rtdb.firebaseio.com/movies.json'
+    fetch('Your_URL/movies.json'
     ).then(response =>{
       return response.json();
     }).then(data => {
